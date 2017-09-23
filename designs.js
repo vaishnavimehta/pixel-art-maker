@@ -23,8 +23,7 @@ function makeGrid() {
 		insertedcols.click(function(e) {
 			var clr = document.getElementById("colorPicker").value;
 			e.target.style.backgroundColor = clr;
-			this.style.borderColor="#fff34f";
-			this.style.boxShadow="0 0 11px #fff34f";
+			this.style.borderColor="black";
 			});
 			
 		};
